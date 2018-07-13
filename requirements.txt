@@ -1,0 +1,8 @@
+certifi==2018.4.16
+chardet==3.0.4
+Django==1.10
+django-materializecss-form==1.1.6
+googlemaps==2.5.1
+openpyxl==2.5.4
+Werkzeug==0.14.1
+XlsxWriter==1.0.5

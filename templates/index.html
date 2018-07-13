@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% load materializecss %} {% load static %} {% block content %}
+<style type="text/css">
+.login__form {
+    background: #f2f2f2;
+    padding: 2rem 5rem;
+}
+
+.padding-top {
+    margin: auto;
+    position: relative;
+    padding-top: 50px;
+}
+</style>
+<div class="col-lg-8 offset-lg-2 col-sm-12">
+    <div class="row padding-top">
+        <div class="col-md-12 login__form">
+            <h4 class="text-center">Upload File</h4> 
+
+            <form method="post" enctype="multipart/form-data">
+                <fieldset>
+                    {% csrf_token %} {{form|materializecss:'m8'}}
+                    <div class="col m4" style="margin: auto;position: relative;top: 45px;">
+                        <button type="submit" class="btn primary narrow">
+                            upload
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

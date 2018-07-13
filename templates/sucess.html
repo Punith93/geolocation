@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style type="text/css">
+	.login__form {
+    background: #f2f2f2;
+    padding: 2rem 5rem;
+}
+.padding-top{
+	margin: auto;
+    position: relative;
+    padding-top: 50px;
+}
+</style>
+<div class="col-lg-8 offset-lg-2 col-sm-12">
+	
+	<div class="row padding-top">
+		<a href="{% url "home" %}">Go Home</a>
+		<div class="col-md-12 login__form center-align">
+
+			<h5 class = "text-center">Longitude and latitude has been generated please click download</h5>
+			<a href='{% url "download" %}' class="btn primary narrow">Download</a>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
