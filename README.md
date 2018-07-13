@@ -7,7 +7,7 @@ Tech:
 2) Django 1.10
 
 Installation:
-1) First clone the project, open your terminal and enter the command
+1) First clone the project, open your terminal and enter the command.
   git clone https://github.com/Punith93/geolocation.git
   
 2) Now activate the virtual environment
