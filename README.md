@@ -10,7 +10,7 @@ Installation:
 1) First clone the project, open your terminal and enter the command.
   git clone https://github.com/Punith93/geolocation.git
   
-2)Now create a virtual environment
+2) Now create a virtual environment
   virtualenv geo
   
 3) Now activate the virtual environment
