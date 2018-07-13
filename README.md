@@ -10,18 +10,24 @@ Installation:
 1) First clone the project, open your terminal and enter the command.
   git clone https://github.com/Punith93/geolocation.git
   
-2) Now activate the virtual environment
-  source env/bin/activate
+2)Now create a virtual environment
+  virtualenv geo
   
-3) Now enter into the project folder
+3) Now activate the virtual environment
+  source geo/bin/activate
+  
+4) Now enter into the project folder
   cd geolocation
+ 
+5) Now install the requirements
+  pip install -r requirements.txt
   
-4) Make Migrations
+6) Make Migrations
   python manage.py makemigrations
   
-5) Make Migrate
+7) Make Migrate
   python manage.py migrate
   
-6) runserver
+8) runserver
   python manage.py runserver
   
